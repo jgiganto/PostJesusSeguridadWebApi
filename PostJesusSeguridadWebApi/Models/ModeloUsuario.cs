@@ -7,9 +7,14 @@ namespace PostJesusSeguridadWebApi.Models
 {
     public class ModeloUsuario
     {
-        public String GetMensaje()
+        public String GetMensajeAdmin()
         {
-            return "Has sido validado con éxito!!";
+            return "Has sido validado con éxito Sr. Administrador!!";
+        }
+
+        public String GetMensajeUsuario()
+        {
+            return "Has sido validado con éxito Sr. Usuario!!";
         }
     }
 }
