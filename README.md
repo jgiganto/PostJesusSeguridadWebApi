@@ -3,8 +3,7 @@ Muy buenas, en el presente Post voy a explicar qué es la seguridad Oauth 2 y c�
 
 ![Oauth logo](https://i.imgur.com/1sDdJY6.gif)
 
-
-Oauth 2 es un protocolo abierto de seguridad (publicado en octubre de 2012 por el Internet Engineering Task Force (IETF)) que proporciona flujos de autorización específicos para aplicaciones Web, de escritorio, smartphones, etc. Empresas como Facebook, Google o Github, entre otras , utilizan este esquema de seguridad en sus API.  Oauth 2 describe como un usuario (consumidor del servicio) puede tener acceso la información ofrecida por un proveedor de servicio (APIs) mediante el uso de Tokens de acceso temporales. Estos dan acceso a la información del usuario de forma y tiempo limitado incluyendo código en la petición.
+**Oauth 2** es un protocolo abierto de seguridad (publicado en octubre de 2012 por el Internet Engineering Task Force (IETF)) que proporciona flujos de autorización específicos para aplicaciones Web, de escritorio, smartphones, etc. Empresas como Facebook, Google o Github, entre otras , utilizan este esquema de seguridad en sus API.  Oauth 2 describe como un usuario (consumidor del servicio) puede tener acceso la información ofrecida por un proveedor de servicio (APIs) mediante el uso de Tokens de acceso temporales. Estos dan acceso a la información del usuario de forma y tiempo limitado incluyendo código en la petición.
 
 Hay que decir que este sistema tiene un punto débil, ya que si alguien captura el token de acceso podría usarlo para acceder a la información del usuario, aunque para evitar esto hay que tener en cuenta una serie de recomendaciones en el uso de esta tecnología:
 
