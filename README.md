@@ -1,3 +1,3 @@
 # PostJesusSeguridadWebApi
 Muy buenas, en el presente Post voy a explicar qué es la seguridad Oauth 2 y cómo usarla en un servicio WebApi, haciendo uso de diferentes roles.
-![Oauth logo](https://i.imgur.com/m4ZskoQ.jpg)
+![Oauth logo](https://imgur.com/1sDdJY6)
