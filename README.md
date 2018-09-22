@@ -17,3 +17,14 @@ Los clientes no deben almacenar los token en sitios vulnerables o accesibles, co
 El servidor de autorización debe comprobar que las URIs de redireccionamiento usadas tanto al conseguir el código de autorización como de acceso deben coincidir, evitando así que un atacante modifique la misma y obtenga acceso a la cuenta de un usuario.
 
 ![secuencia Oauth](https://i.imgur.com/WdU4Yhl.gif)
+
+
+Ahora vamos a ver como implementar este esquema de seguridad en un sencillo ejemplo, para ello usaremos Visual Studio de Microsoft.
+Lo primero que haremos será abrir un nuevo proyecto MVC empty y marcaremos las referencias para Web APi, para este proyecto necesitaremos agregar tres paquetes NuGet y actualizar el paquete de NewtonSoft.
+
+![Nuget](https://i.imgur.com/q8cSTbe.png)
+
+Sobre nuestro proyecto usando el explorador de archivos buscaremos el Glogal.asax y lo eliminaremos, además añadiremos una nueva clase OWIN y la llamaremos Startup.cs. 
+
+![Owin](https://i.imgur.com/lFdirlF.png)
+
