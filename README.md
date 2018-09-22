@@ -16,4 +16,4 @@ Los clientes que se autentiquen con el servidor de autorización deben validar e
 Los clientes no deben almacenar los token en sitios vulnerables o accesibles, como por ejemplo serían las cookies.
 El servidor de autorización debe comprobar que las URIs de redireccionamiento usadas tanto al conseguir el código de autorización como de acceso deben coincidir, evitando así que un atacante modifique la misma y obtenga acceso a la cuenta de un usuario.
 
-(https://i.imgur.com/WdU4Yhl.gif)
+![secuencia Oauth](https://i.imgur.com/WdU4Yhl.gif)
